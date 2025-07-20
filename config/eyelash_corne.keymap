@@ -50,6 +50,74 @@
         tap-ms = <100>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        qa-1 {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <1 14>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <30>;
+            layers = <0>;
+        };
+
+        ws-2 {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <2 15>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <30>;
+            layers = <0>;
+        };
+
+        ed-3 {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <3 16>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <30>;
+            layers = <0>;
+        };
+
+        rf-4 {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <4 17>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <30>;
+            layers = <0>;
+        };
+
+        tg-5 {
+            bindings = <&kp N5>;
+            key-positions = <5 18>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <30>;
+            layers = <0>;
+        };
+
+        yh-6 {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <7 22>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <30>;
+            layers = <0>;
+        };
+
+        uj-7 {
+            bindings = <&kp N7>;
+            key-positions = <8 23>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <30>;
+            layers = <0>;
+        };
+
+        ik-8 {
+            bindings = <&kp N8>;
+            key-positions = <9 24>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <30>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
