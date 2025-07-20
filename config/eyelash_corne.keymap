@@ -158,6 +158,44 @@
         };
     };
 
+    macros {
+        macro1: macro1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp N1 &kp N7 &kp N7 &kp N1 &kp N0 &kp N2 &kp N8 &kp N3 &kp N5 &kp N1 &kp N2>;
+            label = "MACRO1";
+            wait-ms = <10>;
+            tap-ms = <30>;
+        };
+
+        macro2: macro2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp A &kp M &kp Y &kp V &kp O &kp I &kp C &kp E &kp AT &kp N1 &kp N6 &kp N3 &kp DOT &kp C &kp O &kp M>;
+            label = "MACRO2";
+            wait-ms = <10>;
+            tap-ms = <30>;
+        };
+
+        macro3: macro3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(V) &kp LS(L) &kp LS(O) &kp LS(O) &kp LS(K) &kp LS(U) &kp LS(P) &kp LS(A) &kp N2 &kp COMMA &kp DLLR &kp LS(G) &kp DLLR &kp N1 &kp COLON &kp DLLR &kp LS(H) &kp DLLR &kp N1 &kp N5 &kp N8 &kp COMMA &kp N2 &kp COMMA &kp N0 &kp RPAR>;
+            label = "MACRO3";
+            wait-ms = <10>;
+            tap-ms = <30>;
+        };
+
+        macro4: macro4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp A &kp M &kp Y &kp V &kp O &kp I &kp C &kp E &kp C &kp H &kp E &kp N &kp N0 &kp N0 &kp N1 &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "MACRO4";
+            wait-ms = <10>;
+            tap-ms = <30>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
