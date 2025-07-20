@@ -229,7 +229,7 @@
 &kp TAB         &kp EXCL      &kp AT        &kp HASH      &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK      &kp LPAR          &kp RPAR      &kp BSPC
 &kp LEFT_SHIFT  &bt BT_CLR    &mkp LCLK     &mkp MCLK     &mkp RCLK  &none                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT       &kp RBKT          &kp SEMI      &kp RETURN
 &kp LCTRL       &out OUT_USB  &out OUT_BLE  &out OUT_TOG  &kp TILDE  &kp GRAVE  &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &kp RIGHT_SHIFT
-                                            &trans        &trans     &kp SPACE                                                             &kp RET    &trans     &trans
+                                            &kp LEFT_ALT  &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
