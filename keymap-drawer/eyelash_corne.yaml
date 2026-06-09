@@ -50,7 +50,7 @@ layers:
   - {t: '$$mdi:arrow-left-bold$$', h: SYMBOL}
   - {t: '$$mdi:arrow-right-bold$$', h: RIGHT WIN}
   NUMBER:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -63,41 +63,41 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
-  - BT CLR ALL
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - Sft+Ctl+$$mdi:keyboard-tab$$
+  - HOME
+  - PgUp
+  - $$mdi:brightness-5$$
+  - $$mdi:volume-high$$
+  - {t: '`', s: '~'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - Gui+$$mdi:keyboard-space$$
-  - '&mkp MB1'
-  - $$mdi:arrow-up-bold$$
-  - '&mkp MB2'
-  - HOME
-  - PG UP
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:bluetooth-off$$
-  - OUT BLE
-  - OUT USB
-  - Sft+Ctl+<
-  - Sft+Ctl+>
+  - {t: '-', s: _}
+  - {t: '=', s: +}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: ;, s: ':'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Ctl+$$mdi:keyboard-tab$$
+  - END
+  - PgDn
+  - $$mdi:brightness-7$$
+  - $$mdi:volume-low$$
+  - \
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - END
-  - PG DN
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
+  - {t: ',', s: <}
+  - .
+  - {t: /, s: '?'}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
-  - NUMBER
-  - $$mdi:keyboard-space$$
+  - LEFT WIN
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-space$$', type: held}
   - PRINTSCREEN
-  - RIGHT GUI
+  - LEFT WIN
   SYMBOL:
   - $$mdi:keyboard-tab$$
   - '!'
