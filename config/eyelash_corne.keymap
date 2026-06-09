@@ -237,10 +237,10 @@
         FuncAndMacro {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1      &kp F1  &kp F2   &kp F3   &kp F4                                 &mmv MOVE_UP                     &macro1      &macro2    &macro3      &macro4     &kp F5           &kp F12
-&trans          &trans      &kp F5  &kp F6   &kp F7   &kp F8                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &kp F9  &kp F10  &kp F11  &kp F12  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &none            &none
-                                    &trans   &trans   &trans                                                                  &trans       &trans     &trans
+&none  &none       &kp F1  &kp F2   &kp F3   &kp F4                                 &mmv MOVE_UP                     &macro1  &macro2    &macro3      &macro4     &none            &none
+&none  &none       &kp F5  &kp F6   &kp F7   &kp F8                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &macro4  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
+&none  &sys_reset  &kp F9  &kp F10  &kp F11  &kp F12  &kp C_MUTE                    &mmv MOVE_DOWN                   &none    &none      &bootloader  &sys_reset  &none            &none
+                           &none    &none    &none                                                                   &none    &none      &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
